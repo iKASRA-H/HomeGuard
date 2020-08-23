@@ -20,7 +20,7 @@ def mail():
         body='Hi Boss, Your Home is under attack!'
         msg.attach(MIMEText(body,'plain'))
 
-        filename='image.jpg'
+        filename='photo.jpg'
         attachment=open(filename,'rb')
 
         part =MIMEBase('application','octet-stream')
